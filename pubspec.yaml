@@ -21,26 +21,48 @@ dependencies:
   mqtt_client: ^10.0.0
   http: ^1.1.0
   
-  # Storage
+  # Storage & Database
   shared_preferences: ^2.2.2
   flutter_secure_storage: ^9.0.0
   hive_flutter: ^1.1.0
   path_provider: ^2.1.1
+  sqflite: ^2.3.0
+  path: ^1.9.0
   
   # Utilities
   intl: ^0.18.1
   connectivity_plus: ^5.0.2
   permission_handler: ^11.0.1
   url_launcher: ^6.2.1
+  collection: ^1.18.0
   
   # Background
   workmanager: ^0.5.1
   flutter_local_notifications: ^16.3.0
 
+  go_router: ^17.2.2
+  fl_chart: ^1.2.0
+  mobile_scanner: ^7.2.0
+  flutter_launcher_icons: ^0.14.4
+  
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#2E7D32"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  mockito: ^5.4.2
+  bloc_test: ^9.1.5
+  integration_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true

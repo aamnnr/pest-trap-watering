@@ -43,3 +43,38 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+*.lock
+*.iml
+*.iws
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Android
+*.keystore
+key.properties
+android/app/google-services.json
+android/app/src/main/res/values/google_maps_api.xml
+
+# iOS
+Pods/
+*.xcworkspace
+*.xcodeproj
+GoogleService-Info.plist
+
+# Environment
+.env
+.env.*
+*.env
+
+# Logs
+*.log
